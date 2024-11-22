@@ -95,5 +95,8 @@ npm cache clean --force
 •	Reinstall dependencies: If problems continue, delete node_modules and package-lock.json, then reinstall all dependencies:
 rm -rf node_modules package-lock.json
 npm install
+
+
+Note: all the single file uploaded inside the frontend folder of project and install react in frontend and in src folder of fronend paste all the singel file here ...
  
 
