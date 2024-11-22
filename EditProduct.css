@@ -1,0 +1,14 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    margin: 340px auto; /* 40px top margin, auto for left and right, 100px bottom margin */
+
+    min-height: 100vh; /* Full viewport height */
+}
+
+.home-content {
+    flex-grow: 1; /* Takes up remaining space */
+    margin: 340px auto ; /* 40px top margin, auto for left and right, 100px bottom margin */
+
+    padding: 20px; /* Padding for content */
+}

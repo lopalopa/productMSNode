@@ -1,0 +1,50 @@
+/* Header.css */
+.header {
+    width: 100%;
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header is above other content */
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header .nav {
+    display: flex;
+  }
+  
+  .header .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header .nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .header .nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
